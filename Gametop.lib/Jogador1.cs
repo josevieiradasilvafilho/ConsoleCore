@@ -10,19 +10,16 @@ namespace Gametop.lib
             _Nome = nome;
         }
 
-        //chuta
         public string Chuta()
         {
             return $"{_Nome} está Chutando \n";
 ;       }
 
-        //corre
         public string Corre()
         {
             return $"{_Nome} está Correndo \n";
         }
         
-        //passe
         public string Passa()
         {
             return $"{_Nome} está Passando \n";
